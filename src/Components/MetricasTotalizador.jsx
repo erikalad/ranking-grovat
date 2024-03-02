@@ -494,8 +494,8 @@ export default function MetricasTotalizador () {
 
   return(
     <div className='container-metrics'>
-    <Mix {...config} style={{width:"50%", height:"400px"}}/>;
-    <Liquid {...configLiquid} />
+    <Mix {...config} style={{width:"50%", height:"500px"}}/>
+    <Liquid {...configLiquid} style={{width:"30%", height:"500px"}} />
     </div>
   )
 };

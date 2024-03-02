@@ -21,18 +21,20 @@ export default function Tabla() {
       title: 'Setter',
       dataIndex: 'setter',
       key: 'setter',
+      width: '500px'
     },
     {
       title: 'Cantidad Demos',
       dataIndex: 'cantidadDemos',
       key: 'cantidadDemos',
+      width: '500px'
       // Opcional: Agregar renderizado personalizado o configuración adicional
     },
   ];
 
   return (
     <div className='container-table'>
-      <Table columns={columns} dataSource={data} pagination={false} bordered/>
+      <Table columns={columns} dataSource={data} pagination={false} bordered width={"500px"}/>
     </div>
   );
 }

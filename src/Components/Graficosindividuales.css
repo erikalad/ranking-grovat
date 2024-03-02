@@ -1,0 +1,10 @@
+.container-graficosindividuales{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+}
+
+.grafico-individual{
+    width: 30%;
+}

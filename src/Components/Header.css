@@ -7,3 +7,9 @@
     color: rgb(243, 240, 240);
     font-size: 4rem;
 }
+
+@media (max-width:1024px) {
+    .header{
+        font-size: 2rem;
+    }
+}

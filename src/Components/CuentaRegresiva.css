@@ -17,6 +17,9 @@
 }
 
 .numero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(243, 240, 240);
     margin-top: 2rem;
     font-size: 400%;
@@ -43,15 +46,23 @@
 
 #dias{
     padding-right: 1.5rem;
+    display: flex;
+    justify-content: center;
 }
 #horas{
     padding-right: 2rem !important;
+    display: flex;
+    justify-content: center;
 }
 #minutos{
     padding-right: 2rem !important;
+    display: flex;
+    justify-content: center;
 }
 #segundos{
     padding-right: 2rem !important;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 985px) {
@@ -64,7 +75,7 @@
         height: 3rem;
         border-radius: 3rem;
         padding: 0.5rem;
-        
+        margin-right: 1rem;
     }
     .regresiva{
         font-size: 10px;
@@ -80,6 +91,7 @@
     }
     .contador{
         margin-left: 1.5rem;
+        flex-wrap: nowrap;
     }
   
   }

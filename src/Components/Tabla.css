@@ -1,5 +1,23 @@
 .container-table{
-    margin:2rem;
+    margin:2rem 7rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 2rem;
+}
+
+.item-table {
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid #c4c4c4;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+@media (max-width:1024px) {
+    .container-table{
+        margin:1rem;
+    }
+
 }

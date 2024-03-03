@@ -7,7 +7,6 @@ const setters = ['Leandro', 'Sol', 'Lourdes', 'Lucas', 'Juan'];
 
 export default function Graficosindividuales() {
   const dataBase = useSelector(state => state.ranking);
-  console.log(dataBase)
   const [chartsData, setChartsData] = useState({});
 
   useEffect(() => {

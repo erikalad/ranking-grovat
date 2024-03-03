@@ -12,7 +12,6 @@ export default function MetricasTotalizador() {
     "line": []
   });
   const dataBase = useSelector(state => state.ranking);
-  console.log(dataBase);
 
   const completedAgendas = dataBase.length; // Cantidad de agendas completadas
 
@@ -215,7 +214,6 @@ export default function MetricasTotalizador() {
     ],
   };
 
-  console.log(data)
   const configLiquid = {
     percent: dataBase.length / 40,
     shape: 'rect',

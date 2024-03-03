@@ -28,7 +28,6 @@ export const getRanking = () => {
 
 export const postRanking = (postData) => {
   return async (dispatch) => {
-    console.log(postData)
     dispatch({ type: POST_RANKING_REQUEST });
     try {
       const response = await axios.post('http://localhost:3001/ranking', postData);
@@ -41,7 +40,6 @@ export const postRanking = (postData) => {
 
 export const deleteRanking = (id) => {
   return async (dispatch) => {
-    console.log(id)
     dispatch({ type: DELETE_RANKING_REQUEST });
     try {
       const response = await axios.delete(`http://localhost:3001/${id}`);

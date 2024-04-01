@@ -40,7 +40,7 @@ export default function CuentaRegresiva() {
     }, 1000);
   };
 
-  countdown("March 31 2024 23:59:00 GMT-0300", "¡Felicidades Grovat!");
+  countdown("April 30 2024 23:59:00 GMT-0300");
 
   return (
     <div className="contenedor">
